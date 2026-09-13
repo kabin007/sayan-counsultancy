@@ -29,8 +29,8 @@ export function CountryChip({
       }}
       className={[
         "inline-flex items-center gap-2 rounded-full border",
-        "px-3.5 py-2.5 sm:px-4",
-        "text-[13px] leading-none font-semibold sm:text-[14px]",
+        "px-3 py-2.5 sm:px-3.5",
+        "text-[13px] leading-none font-semibold sm:text-[13.5px]",
         "shadow-chip",
         accent
           ? "border-royal/30 bg-sky/70 text-royal"
@@ -40,7 +40,7 @@ export function CountryChip({
       {flag ? (
         <span
           aria-hidden="true"
-          className="grid size-[22px] shrink-0 place-items-center overflow-hidden rounded-full bg-sky text-[15px] leading-none"
+          className="grid size-5 shrink-0 place-items-center overflow-hidden rounded-full bg-sky text-[14px] leading-none"
         >
           {flag}
         </span>
